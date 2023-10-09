@@ -8,9 +8,7 @@ import {
 } from 'config/tmdb';
 
 /**
- * TODO:
- * RE: https://developers.themoviedb.org/4/getting-started
- * Do however, encourage you to use the new `Authorization` header for all requests since it's a system you have to use for all application and user requests besides `GET` regardless.
+ * Eencourage you to use the new `Authorization` header for all requests since it's a system you have to use for all application and user requests besides `GET` regardless.
  * Could encounter such an issue as https://google-chrome.atlassian.net/browse/GOOGLE-89?focusedCommentId=10979.
  */
 

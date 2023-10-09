@@ -2,7 +2,7 @@
 /**
  * TODO:
  * Number UI is fragile on small width screen.
- * Could apply ellipsis to movie titles to avoid breaking number element.
+ * Could apply ellipsis to movie titles to avoid breaking number element!
  */
 
 const ListItem = ({
