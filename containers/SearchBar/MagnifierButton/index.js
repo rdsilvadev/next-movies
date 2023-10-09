@@ -9,7 +9,7 @@ const MagnifierButton = ({
     <button
       className='magnifier-button'
       aria-label='Search for a movie'>
-      {/* MEMO: inspired by https://web.dev/prefers-color-scheme/#use-currentcolor-for-inline-svgs */}
+      {/* MEMO: inspired by: https://web.dev/prefers-color-scheme/#use-currentcolor-for-inline-svgs */}
       <SearchIcon
         fill='currentColor'
         width='1.125em' />

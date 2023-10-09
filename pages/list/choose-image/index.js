@@ -40,7 +40,7 @@ const ChooseImage = ({
 
   const [status, setStatus] = useState(STATUSES.IDLE);
   const [chooseImageStatus, setChooseImageStatus] = useState(STATUSES.IDLE);
-  // TODO: could handle errors
+  
   const [error, setError] = useState(null);
   // const [chooseImageError, setChooseImageError] = useState(null);
 

@@ -9,7 +9,6 @@ const INITIAL_STATE = {
   loading: true,
   base: {
     images: {
-      // TODO: relatively static so hardcode it initially and replace with the fetched data
       secure_base_url: 'https://image.tmdb.org/t/p/'
     }
   },

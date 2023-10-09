@@ -34,10 +34,6 @@ const Search = () => {
   }, [dispatch]);
 
   useEffect(() => {
-    /**
-     * RE: https://github.com/vercel/next.js/issues/8259
-     * For example. https://github.com/vercel/next.js/issues/8259#issuecomment-650225962
-     */
     if (checkEmptyObject(query)) return;
 
     const initialSearchTerm = Router.query[QUERY_PARAMS.SEARCH_TERM];
