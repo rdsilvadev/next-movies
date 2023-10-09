@@ -58,22 +58,6 @@ class MyDocument extends Document {
           <meta name='title' content='Next.js Movies' />
           <meta name='description' content='The Movies App is a non-trivial demo application built on top of the TMDB (The Movie Database) API' />
 
-          {/* Open Graph / Facebook */}
-          <meta property='og:type' content='website' />
-          <meta property='og:url' content='https://movies.zaps.dev' />
-          <meta property='og:title' content='Next.js Movies' />
-          <meta property='og:description' content='The Movies App is a non-trivial demo application built on top of the TMDB (The Movie Database) API' />
-          <meta property='og:image' content='https://movies.zaps.dev/movies-meta-image.jpg' />
-          <meta property='og:image:width' content='1200' />
-          <meta property='og:image:height' content='628' />
-
-          {/* Twitter */}
-          <meta property='twitter:card' content='summary_large_image' />
-          <meta property='twitter:url' content='https://movies.zaps.dev' />
-          <meta property='twitter:title' content='Next.js Movies' />
-          <meta property='twitter:description' content='The Movies App is a non-trivial demo application built on top of the TMDB (The Movie Database) API' />
-          <meta property='twitter:image' content='https://movies.zaps.dev/movies-meta-image.jpg' />
-
           <style
             type='text/css'
             dangerouslySetInnerHTML={{__html: mediaStyles}} />
